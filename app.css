@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.header {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.header > * {
+    color: #546E4D;
+}
+
+.btn-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    gap: .3rem;
+    padding: .3rem .7rem 0 .7rem;
+    border-radius: 24px;
+    border: 1px solid #546E4D;
+    cursor: pointer;
+    transition: .33s;
+}
+
+.btn-header > h1 {
+    font-size: 1.2rem;
+}
+
+.btn-header > i {
+    font-size: 1.3rem;
+    margin-top: -6px;
+}
+
+.btn-header:nth-child(2) {
+    background: #546E4D;
+}
+
+.btn-header:nth-child(2) > * {
+    color: #fefefe;
+}
+
+.btn-header:nth-child(1):hover {
+    background: #546E4D;
+}
+
+.btn-header:nth-child(1):hover > * {
+    color: #fefefe;
+}
+
+.btn-header:nth-child(2):hover {
+    background: #fefefe;
+}
+
+.btn-header:nth-child(2):hover > * {
+    color: #546E4D;
+}
+
+.image-logo {
+    position: absolute;
+    width: 150px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+}
+
+.sub-header {
+    background: #F7F4EB;
+    text-align: center;
+}
+
+.sub-header > h3 {
+    font-size: 1rem;
+    color: #9A9A9A;
+}
+
+.sub-header > h1 {
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #506849;
+}
+
+.btn-start {
+    background: #F6C63B;
+    width: 220px;
+    height: 50px;
+    top: 503px;
+    left: 820px;
+    border-radius: 30px;
+    color: #546E4D;
+    border: none;
+}
+
+.first-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.container-text-first-row {
+    width: 35%;
+    text-align: left;
+}
+
+.container-text-first-row > img {
+}
+
+.container-text-first-row > h2 {
+    font-size: 1.2rem;
+    color: #707070;
+    font-family: sans-serif !important;
+    font-weight: 100 !important;
+}
+
+.container-text-first-row > h1 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #546E4D;
+}
+
+.span-text {
+    color: #F6C63B;
+}
+
+.container-image-3 {
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    background: #556F4D;
+    padding: 4rem;
+}
+
+.footer > section > img {
+    width: 23rem;
+}
+
+.footer > section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > section > div > h3 {
+    font-size: .8rem;
+    color: #fefefe;
+}
+
+.container-search {
+    background: #fefefe;
+    padding: .3rem .8rem;
+    border-radius: 24px;
+}
+
+.container-search > input {
+    font-size: .8rem;
+    border: none;
+    outline: none;
+}
+
+.btn-search {
+    background: #F6C63B;
+    color: #fefefe;
+    border: none;
+    border-radius: 18px;
+}
+
+.container-footer > ul {
+    row-gap: .5rem;
+}
+
+.container-footer > ul > li {
+    list-style: none;
+    margin-left: -30px
+}
+
+.container-footer > ul > li > a {
+    color: #fefefe;
+    text-decoration: none;
+    font-family: sans-serif !important;
+    font-weight: 600;
+    font-size: .85rem;
+}
+
+.container-footer {
+    display: flex;
+    gap: 4rem;
+}
+
+.footer > nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-links-layout {
+    display: flex;
+    gap: 2rem;
+}
+
+.container-links-layout > div {
+    background: #506849;
+    height: 70px;
+    width: 70px;
+    display: grid;
+    border-radius: 50%;
+    place-content: center;
+}
+
+.text-yellow {
+    color: #F6C63B;
+    font-weight: 900;
+    margin-top: -20px;
+}
+
+.termos {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.termos > span {
+    color: #fefefe;
+}
+
+.termos > a {
+    font-size: .7rem !important;
+    font-family: sans-serif !important;
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.link-conta {
+    font-size: .8rem !important;
+}
+
+.container-articles {
+    background: #506849;
+    display: flex;
+    justify-content: space-between;
+    padding: .4rem 4rem;
+    align-items: center;
+}
+
+.container-articles > h3 {
+    font-size: .7rem;
+    color: #fefefe;
+    font-family: sans-serif !important;
+}
