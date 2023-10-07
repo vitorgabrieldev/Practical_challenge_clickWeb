@@ -495,3 +495,14 @@
     transform: translateX(-50%);
     cursor: pointer;
 }
+
+.first-row-card {
+    display: flex;
+    gap: 2rem;
+    padding: 0 5rem;
+}
+
+.container-row-1 {
+    width: 50%;
+    height: 100% !important;
+}
