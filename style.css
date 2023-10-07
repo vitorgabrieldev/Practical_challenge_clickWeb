@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700;900&display=swap');
 
   body, html {
     margin: 0;
@@ -10,6 +10,8 @@
 * {
     font-family: 'Montserrat', sans-serif !important;
 }
+
+/* =================================== Header ==================================== */
 
 .header {
     display: flex;
@@ -35,6 +37,7 @@
 
 .btn-header > h1 {
     font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .btn-header > i {
@@ -74,19 +77,26 @@
     margin-top: 15px;
 }
 
+/* =================================== Sub Header ==================================== */
+
 .sub-header {
     background: #F7F4EB;
     text-align: center;
 }
 
+.sub-header-2 {
+    text-align: center;
+}
+
 .sub-header > h3 {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
     color: #9A9A9A;
 }
 
 .sub-header > h1 {
     font-family: Montserrat;
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 900;
     line-height: 59px;
     letter-spacing: 0em;
@@ -103,6 +113,32 @@
     border-radius: 30px;
     color: #546E4D;
     border: none;
+    font-weight: 700;
+}
+
+/* =================================== Main ==================================== */
+.container-card-animation {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-card-animation {
+    width: 60%;
+}
+
+.container-text-animation {
+    padding: 2rem;
+}
+
+.container-text-animation > h1 {
+    color: #707070;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
 }
 
 .first-row {
@@ -281,38 +317,21 @@
     height: 70%;
 }
 
-/* -- | -- Medias -- | -- */
-@media screen and (max-width : 1000px) {
-    .image-res-bug {
-        margin-left: 100px;
-    }
+.image-card-element {
+    /* width: 80%; */
+    width: 350px;
 }
 
-@media screen and (max-width : 850px) {
-    .image-res-bug {
-        width: 70%;
-    }
-    .media-responsive-1 {
-        width: 70%;
-        padding-right: 1rem;
-    }
-    .container-footer {
-        display: none;
-    }
-    .image-logo-completo {
-        display: none;
-    }
-    .footer > section {
-        justify-content: center;
-    }
-    .container-links-layout {
-        margin-left: 50%;
-        transform: translateX(-50%);
-    }
-    .termos {
-        width: 100%;
-        gap: 1rem;
-    }
+.image-card-element:nth-child(1) {
+    margin-left: 90px;
+}
+
+.item {
+    padding: 0 4rem;
+}
+
+.container-text-first-row {
+    width: 50%;
 }
 
 .termos > span {
@@ -327,48 +346,152 @@
     width: 200px;
 }
 
-@media screen and (max-width : 670px) {
-    .item {
-        display: block;
-        margin-left: 50%;
-        transform: translateX(-50%);
-    }
-    .container-text-first-row {
-        width: 120%;
-    }
-    .trail {
-        display: none;
-    }
-    .container-text-first-row > img {
-        margin-left: 50%;
-        transform: translateX(-50%);
-        margin-top: 1.5rem;
-    }
-    .trail-responsive {
-        display: block;
-    }
-    .container-text-first-row > h1 {
-        white-space: nowrap;
-        margin-left: -45px;
-    }
-    .container-text-first-row > h2 {
-        width: 120%;
-        margin-left: -45px;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-    .container-image-first-row {
-        background: red;
-        width: 100%;
-    }
+.container-image-first-row:nth-child(1) {
+    display: flex;
+    justify-content: center;
 }
 
-@media screen and (max-width : 420px) {
-    .btn-header > h1 {
-        display: none;
-    }
-    .btn-header {
-        padding: .5rem .7rem .3rem .7rem;
-        border-radius: 50%;
-    }
+.container-image-first-row:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.container-image-first-row:nth-child(3) {
+    display: flex;
+    justify-content: center;
+}
+
+.first-row {
+    padding: 0 10rem;
+}
+
+.sub-header-2 > h3 {
+    color: #556F4D;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.word-title {
+    color: #F6C63B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sub-header-2 > h1 {
+    color: #707070;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-page {
+    padding: 0 1.5rem;
+}
+
+.first-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image-pets {
+    gap: .6rem;
+}
+
+.image-pets > img {
+    width: 140px;
+}
+
+.card-pets {
+    text-align: center;
+}
+
+.names-pet {
+    color: #546E4D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-pets > svg {
+    margin-top: 50px;
+    margin-left: -30px;
+    position: absolute;
+}
+
+.container-ads {
+    width: 100%;
+    height: 200px;
+    margin-top: 150px;
+    display: grid;
+    place-content: center;
+}
+
+.container-ads > div {
+    background: #E5E5E5;
+    width: 750px;
+    height: 100px;
+    flex-shrink: 0;
+    display: grid;
+    place-content: center;
+}
+
+.container-ads > div > h3 {
+    color: #9A9A9A;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 10px;
+}
+
+.container-button-loading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-loadingMore {
+    width: 380px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F6C63B;
+    color: #546E4D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    outline: none;
+    transition: .33s;
+}
+
+.btn-loadingMore:hover {
+    background: #546E4D;
+    color: #fefefe;
+}
+
+.icon-back-responsive {
+    display: none;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
 }

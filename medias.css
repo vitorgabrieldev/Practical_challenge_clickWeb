@@ -1,0 +1,138 @@
+@media screen and (max-width : 420px) {
+    .btn-header > h1 {
+        display: none;
+    }
+    .btn-header {
+        padding: .5rem .7rem .3rem .7rem;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width : 670px) {
+    .trail {
+        display: none;
+    }
+    .trail-responsive {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width : 850px) {
+    .container-footer {
+        display: none;
+    }
+    .image-logo-completo {
+        display: none;
+    }
+    .footer > section {
+        justify-content: center;
+    }
+    .container-links-layout {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .termos {
+        width: 100%;
+        gap: 1rem;
+    }
+}
+
+/* ======================================================================= */
+@media screen and (max-width : 1050px) {
+    .first-row {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .container-ads {
+        text-align: center;
+    }
+
+    .container-ads > div {
+        width: 600px;
+    }
+} 
+
+@media screen and (max-width : 600px) {
+    .container-ads > div {
+        width: 400px;
+    }
+    .termos {
+        display: none !important;
+    }
+    .container-articles {
+        display: block;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .container-articles > img {
+        width: 100px;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .icon-back-responsive {
+        display: block !important;
+    }
+
+}
+
+@media screen and (max-width : 500px) {
+    .container-search {
+        text-align: center;
+        width: 120%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .container-search > input {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width : 400px) {
+    .btn-loadingMore  {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .first-row {
+        grid-template-columns: 1fr !important;
+    }
+    .container-articles > i {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width : 350px) {
+    .image-pets > img {
+        width: 120px;
+    }
+    .card-pets {
+        margin-left: -75px;
+    }
+
+    .container-ads > div {
+        width: 250px;
+        height: 60px;
+    }
+
+    .container-ads {
+        margin-top: -50px;
+    }
+    .btn-loadingMore {
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width : 280px) {
+    .card-pets {
+        margin-left: -100px;
+    }
+} 

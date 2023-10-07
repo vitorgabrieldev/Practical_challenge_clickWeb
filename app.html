@@ -4,21 +4,41 @@
 
     <title>Pet love - Página Inicial</title>
 
+    <!-- -- | -- Require Meta Tags -- | -- -->
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-    <link rel="stylesheet" href="./app.css">
+    <!-- Import Style -->
+    <link rel="stylesheet" href="./medias.css">
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Import Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Import Box Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Import Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.js"></script>
+    
+    <!-- Import Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <script src="./app.js" defer></script>
+    <!-- Import Script  -->
+    <script src="./script.js" defer></script>
+
+    <!-- Import Bootstrap Bundle  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    
+
 </head>
 <body>
-    <img class="image-logo" src="./images/logo-app.png" alt="Logo">
+    <!-- -- | -- Views -- | -- -->
+
+    <!-- ========================================================================================================== -->
+
+    <img class="image-logo animate__animated animate__fadeIn" src="./images/logo-app.png" alt="Logo">
     <header class="header">
         <div class="btn-header">  
             <i class="bi bi-list"></i>
@@ -29,25 +49,33 @@
             <h1>Entrar</h1>
         </div>
     </header>
+
+    <!-- ========================================================================================================== -->
+
     <section class="sub-header">
         <br><br><br><br><br>
         <h3>COMO FUNCIONA</h3>
         <h1>Encontre um pretendente <br> para o seu animal</h1>
-        <button class="btn-start">Comece agora!</button>
+        <button class="btn-start animate__animated animate__fadeIn">Comece agora!</button>
         <br><br><br>
     </section>
-    <br><br><br>
 
-    <section class="first-row item">
-        <div class="container-image-first-row container-row-1">
-            <img src="./images/image-1.png" alt="Image-1">
+    <!-- ========================================================================================================== -->
+
+    <br><br><br><br>
+
+    <section class="first-row item row">
+        <div class="container-image-first-row container-row-1 col">
+            <img class="image-card-element" src="./images/image-card-1.png" alt="Image-1">
         </div>
-        <div class="container-text-first-row container-row-1">
-            <img src="./images/image-2.png" alt="Image-2"><br>
+        <div class="container-text-first-row container-row-1 col">
+            <img src="./images/image-icon-1.png" alt="Image-2"><br>
             <h1>Cadastre seu <span class="span-text">animal</span></h1>
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</h2>
         </div>
     </section>
+
+    <!-- ========================================================================================================== -->
 
     <div class="container-image-3 trail">
         <img src="./images/image-3.png" alt="Image-3">
@@ -57,16 +85,21 @@
         <img src="./images/image-10.png" alt="Image-3">
     </div>
 
-    <section class="first-row item">
-        <div class="container-text-first-row container-row-1">
-            <img src="./images/image-4.png" alt="Image-2"><br>
+    <!-- ========================================================================================================== -->
+
+    <section class="first-row  row">
+        <div class="container-text-first-row container-row-1 col">
+            <img src="./images/image-icon-2.png" alt="Image-2"><br>
             <h1><span class="span-text">Procure</span> pretendentes</h1>
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</h2>
         </div>
-        <div class="container-image-first-row container-row-1">
-            <img src="./images/image-5.png" alt="Image-1">
+        <div class="container-image-first-row container-row-1 col">
+            <img class="image-card-element" src="./images/image-card-2.png" alt="Image-1">
         </div>
     </section>
+
+    <!-- ========================================================================================================== -->
+
 
     <div class="container-image-3 trail">
         <img src="./images/image-6.png" alt="Image-3">
@@ -76,17 +109,25 @@
         <img src="./images/image-10.png" alt="Image-3">
     </div>
 
-    <!-- <section class="first-row item">
-        <div class="container-image-first-row container-row-1">
-            <img class="image-res-bug" src="./images/image-7.png" alt="Image-1">
+    <!-- ========================================================================================================== -->
+
+    <section class="first-row item row">
+        <div class="container-image-first-row container-row-1 col">
+            <img class="image-card-element" src="./images/image-card-3.png" alt="Image-1">
         </div>
-        <div class="container-text-first-row container-row-1 media-responsive-1">
-            <img class="" src="./images/image-8.png" alt="Image-2"><br>
+        <div class="container-text-first-row container-row-1 col">
+            <img src="./images/image-icon-1.png" alt="Image-2"><br>
             <h1>Marque um <span class="span-text">encontro</span></h1>
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</h2>
         </div>
-    </section> -->
+    </section>
+
+    <!-- ========================================================================================================== -->
+
+
     <br><br><br>
+
+    <!-- ========================================================================================================== -->
 
     <footer class="footer">
         <section>
@@ -143,5 +184,6 @@
         <i class='bx bxs-chevron-up' ></i>
         <img src="./images/image-9.png" alt="">
     </article>
+
 </body>
 </html>
