@@ -17,3 +17,41 @@
 **🐢Compromisso com a Causa Animal:** "Pett Love" também promove a adoção responsável e o apoio a entidades de resgate animal, incentivando os usuários a contribuírem para a causa.
 | :---: |
 
+#
+
+## 🔓 Acesso ao projeto
+
+O projeto pode ser acessado por seu repositório no github. O código está disponível sob licença [GPL v3](https://github.com/leonardossrocha/projeto-CadEndereco/blob/master/LICENSE).
+
+### 💻 Para rodar o projeto siga a instruções:
+
+1. **Clone o [repositório](https://github.com/vitorgabrieldev/Practical_challenge_clickWeb) em sua máquina**
+``` bash
+  git clone https://github.com/vitorgabrieldev/Practical_challenge_clickWeb
+```
+
+2. **Abra o arquivo [index.html](https://pt.wikipedia.org/wiki/Index.html) no seu navegador.**
+
+#
+
+| ⚙ Tipo | 💻 Tecnologia |
+|--------|------|
+| ⚒ Marcação | [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML) |
+| 🖍 Estilo | [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS) |
+| 💻 Script | [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) |
+| 📝 Framework | [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) |
+| 👨‍💻 Versionamento de código | [Git](https://git-scm.com/docs) | 
+| 🔂 Controle de versão | [Github](https://docs.github.com/pt) | 
+| ⚙ Libs js | [Jquery](https://jquery.com/) - [Animate Cloudfrare](https://cdnjs.com/libraries/animate.css)|
+
+#
+
+# Programador 👨‍💻
+
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/106203763?v=4" width=95><br><sub>Vitor Gabriel</sub>](https://github.com/vitorgabrieldev)
+| :---: |
+
+# Designer 📲
+
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/5519736?s=200&v=4" width=95><br><sub>Clickweb</sub>](https://github.com/Clickweb)
+| :---: |
