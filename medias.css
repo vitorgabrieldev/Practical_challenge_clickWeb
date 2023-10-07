@@ -152,6 +152,9 @@
     .btn-loadingMore  {
         width: 250px;
     }
+    .container-ads > div {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width : 450px) {
@@ -199,6 +202,9 @@
     .container-text-first-row > h1 {
         white-space: normal;
         text-align: center;
+    }
+    .hidden-responsive {
+        display: none;
     }
 }
 
