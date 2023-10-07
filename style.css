@@ -510,3 +510,43 @@
 .icon-back-responsive {
     display: none !important;
 }
+
+.link-conta {
+    font-weight: 100;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.termos > a:hover {
+    color: #f6c63b;
+}
+
+.container-footer > ul > li > a:hover {
+    color: #f6c63b;   
+}
+
+.container-links-layout > div:hover {
+    transition: .33s;
+    transform: scale(1.1);
+}
+
+.inputEmail:focus {
+    transition: .33s;
+    padding: 0 1rem;
+}
+
+.inputEmail {
+    border: none;
+    outline: none;
+}
+
+.inputEmail::placeholder {
+    color: rgb(155, 154, 154);
+}
+
+.linkRedirect {
+    color: #546E4D;
+    text-decoration: none;
+}

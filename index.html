@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 
     <title>Pet love - Página Inicial</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- -- | -- Require Meta Tags -- | -- -->
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Desafio Prático - clickweb">
 
     <!-- Import Style -->
     <link rel="stylesheet" href="./style.css">
@@ -30,9 +33,6 @@
 
     <!-- Import Bootstrap Bundle  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    
-    <!-- Import Jquery  -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 <body>
@@ -40,7 +40,7 @@
 
     <!-- ========================================================================================================== -->
 
-    <img class="image-logo animate__animated animate__fadeIn" src="./images/logo-app.png" alt="Logo">
+    <img width="auto" height="auto" class="image-logo animate__animated animate__fadeIn" src="./images/logo-app.png" alt="Logo" loading="lazy">
     <header class="header">
         <div class="btn-header animate__animated animate__slideInLeft">  
             <i class="bi bi-list"></i>
@@ -58,7 +58,7 @@
         <br><br><br><br><br>
         <h3>COMO FUNCIONA</h3>
         <h1>Encontre um pretendente <br> para o seu animal</h1>
-        <button onclick="window.location.href = 'page2.html'" class="btn-start animate__animated animate__fadeIn">Comece agora!</button>
+        <button class="btn-start animate__animated animate__fadeIn"><a class="linkRedirect" href="page2.html">Comece agora!</a></button>
         <br><br><br>
     </section>
 
@@ -68,10 +68,10 @@
 
     <section class="first-row-card item">
         <div class="container-image-first-row container-row-1">
-            <img class="image-card-element" width="auto" height="auto" src="./images/image-card-1.png" alt="Image-1">
+            <img width="auto" height="auto" class="image-card-element" width="auto" height="auto" src="./images/image-card-1.png" alt="Image-1" loading="lazy">
         </div>
         <div class="container-text-first-row container-row-1">
-            <img src="./images/image-icon-1.png" alt="Image-2"><br>
+            <img width="auto" height="auto" src="./images/image-icon-1.png" alt="Image-2" loading="lazy"><br>
             <h1>Cadastre seu <span class="span-text">animal</span></h1>
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</h2>
         </div>
@@ -93,12 +93,12 @@
 
     <section class="first-row-card second-item">
         <div class="container-text-first-row container-row-1 grid-order-text">
-            <img src="./images/image-icon-2.png" alt="Image-2"><br>
+            <img width="auto" height="auto" src="./images/image-icon-2.png" alt="Image-2" loading="lazy"><br>
             <h1><span class="span-text">Procure</span> pretendentes</h1>
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</h2>
         </div>
         <div class="container-image-first-row container-row-1 grid-order-image card-res-responsive">
-            <img class="image-card-element" src="./images/image-card-2.png" alt="Image-1">
+            <img width="auto" height="auto" class="image-card-element" src="./images/image-card-2.png" alt="Image-1" loading="lazy">
         </div>
     </section>
 
@@ -107,11 +107,11 @@
 
     <div>
         <div class="container-image-3 trail">
-        <img src="./images/image-6.png" alt="Image-3">
+        <img width="auto" height="auto" src="./images/image-6.png" alt="Image-3" loading="lazy">
     </div>
 
     <div class="container-image-3 trail-responsive">
-        <img src="./images/image-10.png" alt="Image-3">
+        <img width="auto" height="auto" src="./images/image-10.png" alt="Image-3" loading="lazy">
     </div>
     </div>
 
@@ -119,10 +119,10 @@
 
     <section class="first-row-card item">
         <div class="container-image-first-row container-row-1">
-            <img class="image-card-element" src="./images/image-card-3.png" alt="Image-1">
+            <img width="auto" height="auto" class="image-card-element" src="./images/image-card-3.png" alt="Image-1" loading="lazy">
         </div>
         <div class="container-text-first-row container-row-1">
-            <img src="./images/image-icon-1.png" alt="Image-2"><br>
+            <img width="auto" height="auto" src="./images/image-icon-1.png" alt="Image-2" loading="lazy"><br>
             <h1>Marque um <span class="span-text">encontro</span></h1>
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</h2>
         </div>
@@ -137,12 +137,14 @@
 
     <footer class="footer">
         <section>
-            <img class="image-logo-completo" src="./images/logo-completo 1.png" alt="Logo Completa">
+            <img width="auto" height="auto" class="image-logo-completo" src="./images/logo-completo 1.png" alt="Logo Completa" loading="lazy">
             <div>
                 <h3>Receba nossas novidades</h3>
                 <div class="container-search">
-                    <input type="text" placeholder="Digite seu e-mail">
-                    <button class="btn-search">Cadastrar</button>
+                    <form>
+                        <input class="inputEmail" type="email" placeholder="Digite seu e-mail">
+                        <button type="submit" class="btn-search">Cadastrar</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -163,8 +165,8 @@
                 <ul>
                     <li><span class="text-yellow">Ajude uma entidade</span></li>
                     <li><a class="link-conta" href="#">SOS Vida animal <i class='bx bxs-chevron-down'></i></a></li>
-                    <li><a class="link-conta" href="#">Banco Itaú: Ag <strong>8804</strong> Conta <strong>01234-5</strong></a></li>
-                    <li><a class="link-conta" href="#">PIX: <strong>43.660.696/0001-95</strong></a></li>
+                    <li><a class="link-conta" href="#">Banco Itaú: Ag <strong class="bold-text">8804</strong> Conta <strong class="bold-text">01234-5</strong></a></li>
+                    <li><a class="link-conta" href="#">PIX: <strong class="bold-text">43.660.696/0001-95</strong></a></li>
                 </ul>
             </section>
             <div class="container-links-layout">
@@ -182,7 +184,6 @@
             <a href="#">Política de Cookies</a>
             <span>.</span>
             <a href="#">Política de cancelamento</a>
-            <span>.</span>
         </section>
     </footer>
     <article class="container-articles">

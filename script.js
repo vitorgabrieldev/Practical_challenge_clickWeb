@@ -24,13 +24,10 @@ function animateSecondItem() {
     const margin = 100;
 
     if (itemPosition < windowHeight - margin) {
-        // Remove a classe de animação da esquerda, se estiver presente
         secondItem.classList.remove('animate__slideInLeft');
         
-        // Adiciona a classe de animação da direita
         secondItem.classList.add('animate__animated', 'animate__slideInRight');
         
-        // Remove o ouvinte de evento de rolagem após a animação ser aplicada
         window.removeEventListener('scroll', animateSecondItem);
     }
 }
