@@ -206,6 +206,9 @@
     .hidden-responsive {
         display: none;
     }
+    .container-ads {
+        margin-top: -10px;
+    }
 }
 
 
