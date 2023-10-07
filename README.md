@@ -43,6 +43,15 @@ O projeto pode ser acessado por seu repositório no github. O código está disp
 | 👨‍💻 Versionamento de código | [Git](https://git-scm.com/docs) | 
 | 🔂 Controle de versão | [Github](https://docs.github.com/pt) | 
 | ⚙ Libs js | [Jquery](https://jquery.com/) - [Animate Cloudfrare](https://cdnjs.com/libraries/animate.css)|
+| 📱 Design | [Figma DEVmode](https://www.figma.com/dev-mode/) |
+
+#
+
+**Página Incial**
+![App Screenshot](https://raw.githubusercontent.com/vitorgabrieldev/imgs_readmes/main/Design%20sem%20nome.gif)
+
+**Página dos Pets**
+![App Screenshot](https://github.com/vitorgabrieldev/imgs_readmes/blob/main/Design%20sem%20nome%20(1).gif?raw=true)
 
 #
 
