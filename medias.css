@@ -128,6 +128,9 @@
     .icon-back-responsive {
         display: block !important;
     }
+    .container-text-first-row > h1 {
+        width: 100%;
+    }
 
 }
 
