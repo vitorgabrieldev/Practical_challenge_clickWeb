@@ -25,9 +25,9 @@ O projeto pode ser acessado por seu repositório no github. O código está disp
 
 ### 💻 Para rodar o projeto siga a instruções:
 
-1. **Clone o [repositório](https://github.com/vitorgabrieldev/Practical_challenge_clickWeb) em sua máquina**
+1. **Clone o [repositório](https://github.com/vitorgabrieldev/Practical_challenge_clickWeb-Pett_Love) em sua máquina**
 ``` bash
-  git clone https://github.com/vitorgabrieldev/Practical_challenge_clickWeb
+  git clone https://github.com/vitorgabrieldev/Practical_challenge_clickWeb-Pett_Love
 ```
 
 2. **Abra o arquivo [index.html](https://pt.wikipedia.org/wiki/Index.html) no seu navegador.**
